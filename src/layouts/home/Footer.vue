@@ -46,16 +46,7 @@
 
 <script>
   export default {
-    name: 'HomeFooter',
-
-    data: () => ({
-      social: [
-        'Facebook',
-        'Twitter',
-        'Instagram',
-        'Linkedin',
-      ],
-    }),
+    name: 'HomeFooter'
   }
 </script>
 
