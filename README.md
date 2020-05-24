@@ -1,4 +1,4 @@
-# app
+# 10noJam's front-end service
 
 ## Project setup
 ```
