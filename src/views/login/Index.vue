@@ -5,7 +5,7 @@
   // Mixins
   import LoadSections from '@/mixins/load-sections'
   export default {
-    name: 'login',
+    name: 'Login',
     metaInfo: { title: 'Login' },
     extends: View,
     mixins: [

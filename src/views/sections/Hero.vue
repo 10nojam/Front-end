@@ -15,24 +15,11 @@
         >
           <base-heading title="여러 화성학 문제를 풀어보세요" />
 
-          <base-body>
-            
-            
-
-
-          </base-body>
-
           <div
             :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
             class="d-flex flex-wrap"
           >
-            <base-btn>
-              회원가입
-            </base-btn>
-
-            <span class="font-weight-bold ml-6 mr-4 my-4">or</span>
-
-            <base-btn
+            <base-btn @click="btnLogin()"
               :ripple="false"
               class="pa-1"
               height="auto"
@@ -62,5 +49,11 @@
         return `calc(${height} - ${this.$vuetify.application.top}px)`
       },
     },
+
+    methods: {
+      btnLogin: function() {
+        alert("하위")
+      }
+    }
   }
 </script>
