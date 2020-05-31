@@ -19,7 +19,7 @@
             :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
             class="d-flex flex-wrap"
           >
-            <base-btn @click="btnLogin()"
+            <base-btn @click="btnLogin"
               :ripple="false"
               class="pa-1"
               height="auto"
@@ -52,7 +52,7 @@
 
     methods: {
       btnLogin: function() {
-        alert("하위")
+        this.$router.push("/login")
       }
     }
   }

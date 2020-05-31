@@ -1,12 +1,8 @@
 <template>
   <v-theme-provider dark>
-  <base-section
-      id="contact-us"
-      class="primary"
-      space="36"
-    >
+  <base-section>
     <div>
-        <h1>로그인</h1>
+        <button @click="btnLogin"> google </button>
     </div>
   </base-section>
   </v-theme-provider>
@@ -15,5 +11,10 @@
 <script>
   export default {
     name: 'SectionLogin',
+    methods: {
+      btnLogin: function() {
+        alert("google")
+      }
+    }
   }
 </script>
